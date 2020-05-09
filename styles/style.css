@@ -1,11 +1,3 @@
-/*
-Rich black: #073b3a
-Bottle green: 0b6e4f
-Green: 08a045
-Mantis: 6bbf59
-Burlywood: ddb771
-*/
-
 body {
   font-family: Helvetica, Arial, sans-serif;
   font-size: 50px;
@@ -31,7 +23,7 @@ button:active {
   opacity: 1;
 }
 
-#window {
+#display {
   height: 100px;
   width: 420px;
   background-color: transparent;
@@ -41,7 +33,7 @@ button:active {
   color: goldenrod;
   font-size: 100%;
   text-align: right;
-  padding-top: 40px;
+  padding-top: 10px;
 }
 
 #grid-container {
@@ -59,7 +51,7 @@ button:active {
   color: white;
 }
 
-.operators {
+.oper {
   background-color: #ddb771;
   color: white;
 }
@@ -162,4 +154,5 @@ button:active {
 #delete {
   grid-column: 2 / 3;
   grid-row: 1 / 2;
+  font-size: 100%;
 }
